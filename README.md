@@ -1,6 +1,6 @@
 # nested.object.defaults
 
-Like object.defaults but also for nested objects.
+Like object.defaults but also works for nested objects.
 Very useful for safely retrieving values from embedded MongoDB documents.
 
 ## Install
