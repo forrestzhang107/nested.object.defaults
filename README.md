@@ -38,7 +38,7 @@ const schema = {
 defaults(object, schema)
 console.log(object)
 
-// prints
+// prints:
 // {
 //   name: {
 //     first: 'Kevin',
