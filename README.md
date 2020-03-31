@@ -12,6 +12,7 @@ npm i nested.object.defaults
 ## Usage
 
 ```javascript
+const defaults = require('nested.object.defaults')
 
 const object = {
   name: {
@@ -53,5 +54,4 @@ console.log(object)
 //     }
 //   }
 // }
-
 ```
