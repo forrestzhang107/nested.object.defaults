@@ -1,4 +1,7 @@
-function applySchema(object, schema) {
+const _ = require('lodash')
+
+function applySchema(object, template) {
+  const schema = _.cloneDeep(template)
   if (typeof schema != 'object') return
   for (const key in schema) {
     const subSchema = schema[key]

@@ -1,13 +1,6 @@
 const defaults = require('./index')
 
 const object = {
-  name: {
-    first: 'Kevin',
-  },
-  data: {
-    age: 26,
-    pets: {},
-  }
 }
 
 const schema = {
@@ -24,4 +17,7 @@ const schema = {
 }
 
 defaults(object, schema)
-console.log(object)
+
+object.data.name='Forrest'
+console.log('obj', object)
+console.log('schem', schema)

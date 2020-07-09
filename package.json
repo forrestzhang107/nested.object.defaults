@@ -1,6 +1,6 @@
 {
   "name": "nested.object.defaults",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/forrestzhang107/nested.object.defaults/issues"
   },
-  "homepage": "https://github.com/forrestzhang107/nested.object.defaults#readme"
+  "homepage": "https://github.com/forrestzhang107/nested.object.defaults#readme",
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
 }
